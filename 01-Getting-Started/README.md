@@ -103,7 +103,8 @@ yarn add @emotion/core @emotion/styled babel-plugin-emotion
 
 ```javascript
 {
-  "preset"
+  "presets": ["next/babel"],
+  "plugins": [["emotion"]]
 }
 ```
 
